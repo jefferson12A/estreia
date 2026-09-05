@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #121212;
+    color: #e5e2e1;
+  }
+}
+
+/* Custom glow and ambient effects */
+.glow-amber {
+  box-shadow: 0 0 25px rgba(255, 84, 0, 0.25);
+}
+
+.glow-btn {
+  box-shadow: 0 8px 24px -2px rgba(255, 84, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.glow-card {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.6), 0 0 15px 1px rgba(255, 84, 0, 0.12);
+}

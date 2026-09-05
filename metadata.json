@@ -1,0 +1,6 @@
+{
+  "name": "Jellive Salgados - Estreia VIP",
+  "description": "App oficial de contagem regressiva, reserva VIP de lote exclusivo e cardápio de inauguração da Jellive Salgados.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
